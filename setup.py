@@ -39,21 +39,18 @@ setup(
     ],
     include_package_data=True,
     install_requires=[
-        'google-api-python-client>=1.6.4',
+        'google-api-python-client==2.83.0',
     ],
     license="MIT",
     zip_safe=False,
     keywords='django cloudtasks cloud tasks',
     classifiers=[
         'Framework :: Django',
-        'Framework :: Django :: 1.11',
-        'Framework :: Django :: 2.0',
+        'Framework :: Django :: 4.2',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Natural Language :: English',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.11'
     ],
 )

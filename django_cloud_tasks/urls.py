@@ -1,6 +1,6 @@
-from django.conf.urls import url
+from django.url import path
 from . import views
 
 urlpatterns = [
-    url(r'^$', views.run_task, name='run_task'),
+    path('', views.run_task, name='run_task'),
 ]
